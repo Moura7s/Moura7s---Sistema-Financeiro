@@ -1,0 +1,207 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< com.moura:financeiro-api >----------------------
+[INFO] Building financeiro-api 0.0.1-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] >>> spring-boot:3.5.7:run (default-cli) > test-compile @ financeiro-api >>>
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ financeiro-api ---
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] Copying 2 resources from src\main\resources to target\classes
+[INFO] 
+[INFO] --- compiler:3.14.1:compile (default-compile) @ financeiro-api ---
+[INFO] Recompiling the module because of changed source code.
+[INFO] Compiling 27 source files with javac [debug parameters release 21] to target\classes
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ financeiro-api ---
+[INFO] skip non existing resourceDirectory C:\Users\Matheus_Moura\IdeaProjects\moura7s\financeiro-api\src\test\resources
+[INFO] 
+[INFO] --- compiler:3.14.1:testCompile (default-testCompile) @ financeiro-api ---
+[INFO] Recompiling the module because of changed dependency.
+[INFO] Compiling 1 source file with javac [debug parameters release 21] to target\test-classes
+[INFO] 
+[INFO] <<< spring-boot:3.5.7:run (default-cli) < test-compile @ financeiro-api <<<
+[INFO] 
+[INFO] 
+[INFO] --- spring-boot:3.5.7:run (default-cli) @ financeiro-api ---
+[INFO] Attaching agents: []
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.5.7)
+
+2026-05-29T00:07:03.957-03:00  INFO 34292 --- [financeiro-api] [           main] c.m.financeiro.FinanceiroApiApplication  : Starting FinanceiroApiApplication using Java 25.0.1 with PID 34292 (C:\Users\Matheus_Moura\IdeaProjects\moura7s\financeiro-api\target\classes started by Matheus_Moura in C:\Users\Matheus_Moura\IdeaProjects\moura7s\financeiro-api)
+2026-05-29T00:07:03.959-03:00  INFO 34292 --- [financeiro-api] [           main] c.m.financeiro.FinanceiroApiApplication  : The following 1 profile is active: "h2"
+2026-05-29T00:07:04.652-03:00  INFO 34292 --- [financeiro-api] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-05-29T00:07:04.734-03:00  INFO 34292 --- [financeiro-api] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 3 JPA repository interfaces.
+2026-05-29T00:07:05.300-03:00  INFO 34292 --- [financeiro-api] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-05-29T00:07:05.326-03:00  INFO 34292 --- [financeiro-api] [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-05-29T00:07:05.328-03:00  INFO 34292 --- [financeiro-api] [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.48]
+2026-05-29T00:07:05.407-03:00  INFO 34292 --- [financeiro-api] [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-05-29T00:07:05.408-03:00  INFO 34292 --- [financeiro-api] [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1385 ms
+2026-05-29T00:07:05.797-03:00  INFO 34292 --- [financeiro-api] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-05-29T00:07:06.052-03:00  INFO 34292 --- [financeiro-api] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:financeiro_api user=SA
+2026-05-29T00:07:06.054-03:00  INFO 34292 --- [financeiro-api] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-05-29T00:07:06.132-03:00  INFO 34292 --- [financeiro-api] [           main] org.flywaydb.core.FlywayExecutor         : Database: jdbc:h2:mem:financeiro_api (H2 2.3)
+2026-05-29T00:07:06.208-03:00  INFO 34292 --- [financeiro-api] [           main] o.f.c.i.s.JdbcTableSchemaHistory         : Schema history table "public"."flyway_schema_history" does not exist yet
+2026-05-29T00:07:06.216-03:00  INFO 34292 --- [financeiro-api] [           main] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.037s)
+2026-05-29T00:07:06.255-03:00  INFO 34292 --- [financeiro-api] [           main] o.f.c.i.s.JdbcTableSchemaHistory         : Creating Schema History table "public"."flyway_schema_history" ...
+2026-05-29T00:07:06.291-03:00  INFO 34292 --- [financeiro-api] [           main] o.f.core.internal.command.DbMigrate      : Current version of schema "public": << Empty Schema >>
+2026-05-29T00:07:06.300-03:00  INFO 34292 --- [financeiro-api] [           main] o.f.core.internal.command.DbMigrate      : Migrating schema "public" to version "1 - cria tabelas"
+2026-05-29T00:07:06.348-03:00  INFO 34292 --- [financeiro-api] [           main] o.f.core.internal.command.DbMigrate      : Migrating schema "public" to version "2 - dados iniciais"
+2026-05-29T00:07:06.365-03:00  INFO 34292 --- [financeiro-api] [           main] o.f.core.internal.command.DbMigrate      : Successfully applied 2 migrations to schema "public", now at version v2 (execution time 00:00.047s)
+2026-05-29T00:07:06.463-03:00  INFO 34292 --- [financeiro-api] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-05-29T00:07:06.523-03:00  INFO 34292 --- [financeiro-api] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.33.Final
+2026-05-29T00:07:06.555-03:00  INFO 34292 --- [financeiro-api] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-05-29T00:07:06.868-03:00  INFO 34292 --- [financeiro-api] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-05-29T00:07:06.940-03:00  INFO 34292 --- [financeiro-api] [           main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-05-29T00:07:07.845-03:00  INFO 34292 --- [financeiro-api] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-05-29T00:07:07.877-03:00  INFO 34292 --- [financeiro-api] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-05-29T00:07:08.365-03:00  WARN 34292 --- [financeiro-api] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-05-29T00:07:08.628-03:00  INFO 34292 --- [financeiro-api] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:financeiro_api'
+2026-05-29T00:07:08.709-03:00  INFO 34292 --- [financeiro-api] [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-05-29T00:07:08.713-03:00  INFO 34292 --- [financeiro-api] [           main] c.m.financeiro.FinanceiroApiApplication  : Started FinanceiroApiApplication in 5.205 seconds (process running for 5.595)
+2026-05-29T00:07:29.568-03:00  INFO 34292 --- [financeiro-api] [nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-05-29T00:07:29.570-03:00  INFO 34292 --- [financeiro-api] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-05-29T00:07:29.573-03:00  INFO 34292 --- [financeiro-api] [nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+Hibernate: 
+    select
+        p1_0.codigo,
+        p1_0.ativo,
+        p1_0.bairro,
+        p1_0.cep,
+        p1_0.cidade,
+        p1_0.complemento,
+        p1_0.estado,
+        p1_0.logradouro,
+        p1_0.numero,
+        p1_0.nome 
+    from
+        pessoa p1_0 
+    where
+        p1_0.ativo 
+    order by
+        p1_0.nome 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        count(p1_0.codigo) 
+    from
+        pessoa p1_0 
+    where
+        p1_0.ativo
+2026-05-29T00:07:29.809-03:00  WARN 34292 --- [financeiro-api] [nio-8080-exec-2] ration$PageModule$WarningLoggingModifier : Serializing PageImpl instances as-is is not supported, meaning that there is no guarantee about the stability of the resulting JSON structure!
+	For a stable JSON structure, please use Spring Data's PagedModel (globally via @EnableSpringDataWebSupport(pageSerializationMode = VIA_DTO))
+	or Spring HATEOAS and Spring Data's PagedResourcesAssembler as documented in https://docs.spring.io/spring-data/commons/reference/repositories/core-extensions.html#core.web.pageables.
+
+Hibernate: 
+    insert 
+    into
+        categoria
+        (nome, codigo) 
+    values
+        (?, default)
+Hibernate: 
+    insert 
+    into
+        pessoa
+        (ativo, bairro, cep, cidade, complemento, estado, logradouro, numero, nome, codigo) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, default)
+Hibernate: 
+    insert 
+    into
+        lancamento
+        (codigo_categoria, data_pagamento, data_vencimento, descricao, observacao, codigo_pessoa, tipo, valor, codigo) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, default)
+Hibernate: 
+    select
+        c1_0.codigo,
+        c1_0.nome 
+    from
+        categoria c1_0 
+    where
+        c1_0.codigo=?
+Hibernate: 
+    select
+        p1_0.codigo,
+        p1_0.ativo,
+        p1_0.bairro,
+        p1_0.cep,
+        p1_0.cidade,
+        p1_0.complemento,
+        p1_0.estado,
+        p1_0.logradouro,
+        p1_0.numero,
+        p1_0.nome 
+    from
+        pessoa p1_0 
+    where
+        p1_0.codigo=?
+Hibernate: 
+    select
+        l1_0.codigo,
+        l1_0.codigo_categoria,
+        l1_0.data_pagamento,
+        l1_0.data_vencimento,
+        l1_0.descricao,
+        l1_0.observacao,
+        l1_0.codigo_pessoa,
+        l1_0.tipo,
+        l1_0.valor 
+    from
+        lancamento l1_0 
+    order by
+        l1_0.data_vencimento 
+    offset
+        ? rows 
+    fetch
+        first ? rows only
+Hibernate: 
+    select
+        count(l1_0.codigo) 
+    from
+        lancamento l1_0
+Hibernate: 
+    select
+        c1_0.codigo,
+        c1_0.nome 
+    from
+        categoria c1_0 
+    where
+        c1_0.codigo=?
+Hibernate: 
+    select
+        p1_0.codigo,
+        p1_0.ativo,
+        p1_0.bairro,
+        p1_0.cep,
+        p1_0.cidade,
+        p1_0.complemento,
+        p1_0.estado,
+        p1_0.logradouro,
+        p1_0.numero,
+        p1_0.nome 
+    from
+        pessoa p1_0 
+    where
+        p1_0.codigo=?
+2026-05-29T02:49:23.717-03:00  WARN 34292 --- [financeiro-api] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1h40m16s968ms463µs800ns).
+2026-05-29T10:35:21.875-03:00  WARN 34292 --- [financeiro-api] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h45m58s283ms671µs200ns).
+2026-05-29T14:43:29.066-03:00  WARN 34292 --- [financeiro-api] [l-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4h8m10s130ms946µs800ns).
